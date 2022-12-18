@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB APPLICATION</title>
+</head>
+<body bgcolor="pink" align="center">
+    <h1> JOB APPLICATION FORM</h1>
+    <form action="tableAssignment.html">
+    Name:
+    <input type="text" placeholder="Enter your name"> <br> <br>
+
+    Email ID:
+    <input type="email" placeholder="Enter your email"> <br> <br>
+
+    Password:
+    <input type="password" placeholder="Enter your Password" maxlength="10"> <br> <br>
+
+
+
+    Contact:
+    <select>
+        <option value="">+91</option>
+        <option value="">+81</option>
+        <option value="">+71</option>
+        <option value="">+61</option>
+        <option value="">+51</option>
+    </select>
+    <input type="tel" maxlength="10"> <br> <br>
+     
+    DOB:
+    <input type="datetime-local"> <br> <br>
+
+    Skills:
+    <input type="range">
+    <fieldset>
+        <legend>Select your Gender</legend>
+        <input type="radio" name="gender">Male <br>
+        <input type="radio" name="gender">Female <br>
+        <input type="radio" name="gender">Others
+    </fieldset>
+
+    <fieldset>
+        <legend>Select your Subject</legend>
+        <input type="checkbox">HTML <br>
+        <input type="checkbox">CSS <br>
+        <input type="checkbox">JAVASCRIPT <br>
+        <input type="checkbox">DEVOPS <br>
+        <input type="checkbox">PYTHON <br>
+        <input type="checkbox">SQL <br>
+        <input type="checkbox">JAVA
+    </fieldset>
+
+    Upload your Photo:
+    <input type="file"> <br> <br>
+
+    Upoad your Resume
+    <input type="file"> <br> <br>
+
+    <input type="submit">
+    <input type="reset">
+    </form> 
+    
+    
+    
+    
+    
+</body>
+</html>
